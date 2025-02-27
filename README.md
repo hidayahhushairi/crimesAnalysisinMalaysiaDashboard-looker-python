@@ -4,17 +4,17 @@
 #### Dashboard's Link : [https://lookerstudio.google.com/embed/reporting/a9388ac6-f512-4801-880f-1f52160418b4/page/page_12345 ](https://lookerstudio.google.com/embed/reporting/a9388ac6-f512-4801-880f-1f52160418b4/page/page_12345) 
 
 ## Introduction
-Crimes are categorized as wrongdoings actions commited by individual or groups of people, with bad motives and intentions, causing injuries, loss of belongings and lives. According to facts,crimes cases in Malaysia has ranked in 55th globaly. Economic stability, law enforcement and social welfare have lead the factors of crime index occured. The purpose of developing this dashboard is to create awareness of crimes index in Malaysia increased tremendously among society and enhancing strategies for policymakers. 
+Crimes are defined as acts carried out by individuals or groups of individuals with malicious intent that result in harm, property loss, or fatalities. Based on available data, Malaysia has the 55th-highest number of criminal cases worldwide. The components of the crime index are the result of social welfare, law enforcement, and economic stability. This dashboard was created with the intention of raising public awareness of Malaysia's crime index, which has increased tremendously among society, and enhancing strategies for policymakers.
 
 ## Methodology
-- Data Source : This study uses dataset obtained from OpenDOSM, open data source platorm provided by Department of Statistics Malaysia. It is based on administrative record released by Royal Malaysian Police (RMP). The crimes record are actual crimes where a conviction has already occured. Dissagerated analysis on crime rate have been marginalised comperhensively by state, district, and type and category - property and violent crimes.
+- Data Source : The Department of Statistics Malaysia's OpenDOSM open data source platform contributed the dataset used in this study. The Royal Malaysian Police's (RMP) administrative records serve as its foundation. The crimes listed are real offenses for which a conviction has actually been obtained. Dissagerated analysis on crime rate have been marginalised comperhensively by state, district, and type and category - property and violent crimes.
 - Technology : Looker Studio, Python, Google Sheet 
 - Technique : Data Cleaning > Pivot tables > Data XXX > Dashboard Visualization
 - Type of Analysis : Descriptive and Predictive Analysis
 
 ## Findings 
-![crimeslooker](https://github.com/user-attachments/assets/bcf52e36-77d5-453d-9e81-9b60a534023e)
 
+![crimeslooker](https://github.com/user-attachments/assets/dfc3bdd4-4179-473f-a30c-04f8ed76d0e3)
 
 - Figure 1 : Summary of Crimes Cases in Malaysia - Pivot Table Data Bars
  <br> Data bars is set to illustrates the amount of crimes for the category of property and assault crimes, from 2016 until 2023.
@@ -24,15 +24,15 @@ Crimes are categorized as wrongdoings actions commited by individual or groups o
   
 - Figure 2 : District of Crimes Cases in Malaysia - Bubble Mapped Chart
   <br> Depicted the magnitude in the specific states and crimes in a particular districts. Big bubbles in the chart represent larger amount of crimes cases.
-   In the contrast, from the chart, we can see the differences between the total of crimes cases ooccurred in 14 districts within Malaysia.
+   In the contrast, from the chart, we can see the differences between the total of crimes cases occurred in 14 districts within Malaysia.
   Central to this study delineates high-risk areas are Petaling Jaya, followed by Gombak and Dang Wangi, with 46k, 39k and 38k cases.
  <br> By identifying specific areas where crimes are prevalent, this study aims to contribute to the development of tailored crime prevention strategies and fostering safer neighbourhoods.
   Profesional parties should unite in identifying crime incidents such as Anti-Drug Agency (AADK), Islamic Religious Office, District Ofice and NGOs.
 <br> Concurrently, communities and parents must take precautions in monitoring outdoor activities among their contacts and family especially in residential areas and transport infrastructures.
   
-- Figure 3 : Crimes Cases Occured by States - Funnel Chart
+- Figure 3 : Crimes Cases Occured by States - Bar Chart
   <br> Presented a visually appealing of the crimes amount stages by states.
-  Selangor, Wilayah Persekutuan Kuala Lumpur, Johor, Kedah and Sarawak, listed as the top 5 states ranking the most highest crimes, with XXX% (630k), 25.67% (310k), 21.79% (263k), 14.26% (172k), and 14.25% (172k) cases accordingly. These states require specific attention, due to their evolving economy opportunities and exposed to intemperated illegal immigrants.
+  Selangor, Wilayah Persekutuan Kuala Lumpur, Johor, Kedah and Sarawak, listed as the top 5 states ranking the most highest crimes, with 26.03% (630k), 12.83% (310k), 10.89% (263k), 7.13% (172k), and 7.12% (172k) cases accordingly. These states require specific attention, due to their evolving economy opportunities and exposed to intemperated illegal immigrants.
   This study higlights guide for future policies and strategies aimed at mitigating crimes & enhancing public safety in urban environments.
 
 - Figure 4 : Type of Crimes Cases by Years - Line Chart
