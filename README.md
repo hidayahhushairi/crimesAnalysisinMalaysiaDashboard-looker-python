@@ -4,13 +4,12 @@
 #### Dashboard's Link : [https://lookerstudio.google.com/embed/reporting/a9388ac6-f512-4801-880f-1f52160418b4/page/page_12345 ](https://lookerstudio.google.com/embed/reporting/a9388ac6-f512-4801-880f-1f52160418b4/page/page_12345) 
 
 ## Introduction
-Crimes are defined as acts carried out by individuals or groups of individuals with malicious intent that result in harm, property loss, or fatalities. Based on available data, Malaysia has the 55th-highest number of criminal cases worldwide. The components of the crime index are the result of social welfare, law enforcement, and economic stability. This dashboard was created with the intention of raising public awareness of Malaysia's crime index, which has increased tremendously among society, and enhancing strategies for policymakers.
+Crimes are defined as acts carried out by individuals or groups of individuals with malicious intent that result in harm, property loss, or fatalities. The components of the crime index are the result of social welfare, law enforcement, and economic stability. This dashboard was created with the intention of raising public awareness of Malaysia's crime index, which has increased tremendously among society, and enhancing strategies for policymakers.
 
 ## Methodology
 - Data Source : The Department of Statistics Malaysia's OpenDOSM open data source platform contributed the dataset used in this study. The Royal Malaysian Police's (RMP) administrative records serve as its foundation. The crimes listed are real offenses for which a conviction has actually been obtained. Dissagerated analysis on crime rate have been marginalised comperhensively by state, district, and type and category - property and violent crimes.
 - Technology : Looker Studio, Python, Google Sheet 
-- Technique : Data Cleaning > Pivot tables > Data XXX > Dashboard Visualization
-- Type of Analysis : Descriptive and Predictive Analysis
+- Technique : Descriptive and Predictive Analysis
 
 ## Findings 
 
@@ -38,13 +37,15 @@ Crimes are defined as acts carried out by individuals or groups of individuals w
 - Figure 4 : Type of Crimes Cases by Years - Line Chart
 Figure 4 shows the total amount of crimes cases over 9 years. In the period between 2016 and 2022, a continuous decline was recorded in the crimes cases rate. In 2023, witnessed a small rise in the total number of crimes from 152k to 157k cases. In 2022 and 2023, assault crimes, including murder and rape, increased strikingly by 7.5% and 11.8%, after have levelled off since 2019. Meanwhile in the same year, theft motorcycle and theft other from property crimes, display the most crimes committed by offenders.
 
-![crimesprediction](https://github.com/user-attachments/assets/a05b9323-8a0a-4af2-b04d-8152fd6648e2)
-<br> Depicted in the diagram is the forecast of crimes cases forr 5 years above after 2023. As we can see, the trendline experienced decrease moderately from 2016 until XXXX, and increase slightly in 2023.
-Estimated the amount of crimes will led to a rise in the total amount of crimes XXXXX, from 2024 until 2028. This forecast ensure a single offenders' criminality or a single crimetypes' next offence.
+![crimesprediction](https://github.com/user-attachments/assets/0ded707f-0c85-48f3-906e-70b0555628ff)
+
+![resultforecast_crimes](https://github.com/user-attachments/assets/422496b5-0b5e-4ba1-8575-39ffe3ed11e3)
+
+- Depicted in the diagram is the forecast of total crimes index in 5 years. As we can see, the trendline experienced decrease moderately from 2016 until 2022, and increase slightly in 2023.
+Estimated the amount of crimes will led to a rise in the total amount of crimes 272,778 cases to 294, 927, from 2024 until 2028. This forecast ensure a single offenders' criminality or a single crimetypes' next offence.
 
 
 ## Conclusion
-It is crucial for policy makers to identify offenders record cases that repeat victimasation and a miscellanous group. 
-Upholding the country & the well-being of Malaysians as well as the authority of RMP teams. Imposing appropriate punishment and obtain more investigation information effectively. 
-RMP team also must obey integrity. Incidents of corruption, abuse of power involving RMP members are the reason Malaysian questioning their.
+
+Every day there are tragic events that serve to remind us that life is fragile and precarious. This study imply a dashboard visually display the geographical and the classification of crimes index data. It is to enhance policymakers identify repeat victimization and a miscellaneous group among offenders in the hot spot and assigned areas. By monitoring the forecast of crimes index, RMP has been revealed to the trend line, establish the requirement to renew strategies in imposing appropriate punishment and obtain more investigation information effectively. Ultimately, RMP team also must obey integrity. Incidents of corruption, abuse of power involving RMP members can affect their responsibilities to reduce crime index as well as promote a safe and secure society.
 
