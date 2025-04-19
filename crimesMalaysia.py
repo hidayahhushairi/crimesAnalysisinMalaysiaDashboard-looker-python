@@ -29,7 +29,7 @@ all_predictions = np.concatenate((mymodel, future_predictions))
 
 # Plot the original data and the polynomial regression line
 plt.scatter(x, y, label='Data (2016-2023)')
-plt.plot(all_years, all_predictions, color='red', label='Prediction')
+plt.plot(all_years, all_predictions, color='red', label='Polynomial Regression')
 plt.xlabel('Year')
 plt.ylabel('Total Crimes')
 plt.title('Forecast of Total Crimes Index in 5 Years')
@@ -38,4 +38,4 @@ plt.show()
 
 # Print the predicted total number of crimes for 2024 to 2028
 for year, prediction in zip(future_years, future_predictions):
-    print(f"Prediction of total amount of crimes in {year}: {round(prediction)}")
+    print(f"Predicted total number of crimes in {year}: {round(prediction)}")
